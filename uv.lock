@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "mixlyzer-extsync"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pymemoryeditor" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pymemoryeditor", specifier = ">=3.0.1" }]
+
+[[package]]
+name = "pymemoryeditor"
+version = "3.4.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/25/2a/9691e2c6329b12b44c04f5e7e83c6b14320567e6eb1ec3b383e3c433b240/pymemoryeditor-3.4.0.tar.gz", hash = "sha256:bfdf08aae92209e9051d43217e87257eaf7fc4901c3288128e83935ba34dc2ff", size = 1876940, upload-time = "2026-10-12T21:25:18.116Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/09/6a/bda557da8ef99a48d151aa7dc20cddd71ad8d0882c128fcac437446f63a2/pymemoryeditor-3.4.0-py3-none-any.whl", hash = "sha256:9f02d40ada9f18ab4434df5064d8a827f3a9ce1752f845d6e2907c456e1ad62b", size = 356796, upload-time = "2026-10-12T21:25:16.204Z" },
+]

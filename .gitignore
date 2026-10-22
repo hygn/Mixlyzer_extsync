@@ -1,0 +1,5 @@
+# the user's own settings: the process and its memory addresses
+bridge.json
+.venv/
+__pycache__/
+*.pyc

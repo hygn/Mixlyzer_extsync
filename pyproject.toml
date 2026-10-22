@@ -1,0 +1,16 @@
+[project]
+name = "mixlyzer-extsync"
+version = "0.1.0"
+description = "Mixlyzer External Sync bridge: a DJ program's deck state read from its memory, sent to Mixlyzer as OSC"
+readme = "README.md"
+license = "LGPL-3.0-or-later"
+requires-python = ">=3.12"
+dependencies = [
+    "pymemoryeditor>=3.0.1",   # Windows and Linux
+]
+
+[project.scripts]
+mixlyzer-extsync = "memory_bridge.__main__:main"
+
+[tool.uv]
+package = false

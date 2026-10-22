@@ -1,0 +1,97 @@
+{
+  "host": "127.0.0.1",
+  "port": 39321,
+  "rate_hz": 60.0,
+  "process_name": "",
+  "process_pid": 0,
+  "position": "sample_index",
+  "sample_rate": 44100,
+  "decks": [
+    {
+      "number": 1,
+      "time": {
+        "offsets": "0",
+        "type": "float",
+        "length": 0,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      },
+      "sample_index": {
+        "offsets": "0",
+        "type": "int",
+        "length": 0,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      },
+      "path": {
+        "offsets": "0",
+        "type": "str",
+        "length": 2048,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      },
+      "active": {
+        "offsets": "0",
+        "type": "bool",
+        "length": 0,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      },
+      "loaded": {
+        "offsets": "0",
+        "type": "bool",
+        "length": 0,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      }
+    },
+    {
+      "number": 2,
+      "time": {
+        "offsets": "0",
+        "type": "float",
+        "length": 0,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      },
+      "sample_index": {
+        "offsets": "0",
+        "type": "int",
+        "length": 0,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      },
+      "path": {
+        "offsets": "0",
+        "type": "str",
+        "length": 2048,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      },
+      "active": {
+        "offsets": "0",
+        "type": "bool",
+        "length": 0,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      },
+      "loaded": {
+        "offsets": "0",
+        "type": "bool",
+        "length": 0,
+        "encoding": "utf-8",
+        "bit_pos": 0,
+        "multiplier": 1.0
+      }
+    }
+  ]
+}
